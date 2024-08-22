@@ -1,0 +1,75 @@
+/* Style for the entire post container */
+body{
+    font-family: "Cairo", sans-serif;
+}
+
+
+.post-container {
+    border: 3px solid #e68d8d;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width : 505px;
+    height: 130px;
+}
+
+/* Style for the user section (profile picture and username) */
+.user-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.3rem;
+    transform: translateY(-10px);
+}
+
+/* Style for the post title */
+.post-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the post body */
+.post-body {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Style for the post image */
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style for the like and dislike buttons */
+.like-dislike {
+    display: flex;
+    align-items: center;
+}
+
+.like-btn,
+.dislike-btn {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style for the like and dislike count */
+.like-count,
+.dislike-count {
+    margin-right: 5px;
+    font-weight: bolder;
+
+}

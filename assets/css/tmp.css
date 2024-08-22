@@ -1,0 +1,72 @@
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 350px;
+    /* Adjust the max width as needed */
+    margin-top: 90px;
+    /* Adding margin-top to move the form down */
+
+  }
+
+  .wrapper {
+    --input-focus: #e9793d;
+    --font-color: #e3e3e3;
+    --font-color-sub: #7e7e7e;
+    --bg-color: #091f3b;
+    --bg-color-alt: #7e7e7e;
+    --main-color: #fefefe;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    font-family: "Cairo", sans-serif;
+;
+  }
+
+
+
+
+  .flip-card__input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+  }
+
+  .flip-card__input::placeholder {
+    color: var(--font-color-sub);
+    opacity: 0.8;
+  }
+
+  .flip-card__input:focus {
+    border: 2px solid var(--input-focus);
+  }
+
+  .flip-card__btn:active,
+  .button-confirm:active {
+    box-shadow: 0px 0px var(--main-color);
+    transform: translate(3px, 3px);
+  }
+
+  .flip-card__btn {
+    margin: 20px 0 20px 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+  }
